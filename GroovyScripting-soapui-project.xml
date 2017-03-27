@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="5947d7de-46f9-4f12-9562-b743642fcdb8" activeEnvironment="Default" name="GroovyScripting" soapui-version="5.3.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:testSuite id="7768f211-780c-49fc-9875-27383ec9859c" name="TestSuite 1"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="76cd21c2-1132-47da-be74-fbd1826183b6" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 1" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Groovy Script1" id="e036928f-407b-4d41-8356-b9f397e69ba0"><con:settings/><con:config><script>//groovy scripting
+log.info "my first groovy script"
+def Trainer= "Udemy"
+def Video= 20
+def cheracter='A'
+def dbl= 5.3
+log.info Trainer
+log.info Trainer+Video
+log.info Trainer+","+Video
+assert Video==20
+log.info cheracter</script></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
